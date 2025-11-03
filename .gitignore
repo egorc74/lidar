@@ -1,0 +1,13 @@
+venv/
+*.lsf
+*.fsp
+*.npz
+*.csv
+*.lms
+__pycache__
+*.ldf
+*.txt
+*.json
+*.log
+lumerical_guide/
+*.mat
