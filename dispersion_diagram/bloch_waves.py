@@ -9,8 +9,8 @@ import ast
 #function to extract w value for a given cos(2*pi*K/g)
 
 
-A= 0.64e-6 # length of the grating period
-dc = 0.6 # duty cycle of the grating
+A= 0.66e-6 # length of the grating period
+dc = 0.5 # duty cycle of the grating
 d1=A*dc
 d2=A*(1-dc)
 c_0=3e8

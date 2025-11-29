@@ -331,20 +331,6 @@ def data_correction(sim):
 
     # Trim unused rows
     C = C[:len(posA) + len(posB), :]
-
-
-    # pos = find( (Ux_air != max(ux_air)) & (Uy_air != max(uy_air)) )
-    # posA = pos(find(Uz_air(pos) | Uz_air(pos+1) | Uz_air(pos+1+ny)))
-    # cPos = 1:length(posA)
-    # C(cPos,1) = posA
-    # C(cPos,2) = posA+1
-    # C(cPos,3) = posA+1+ny
-    # posB = pos(find(Uz_air(pos) | Uz_air(pos+1+ny) | Uz_air(pos+ny)))
-    # cPos = length(posA) + (1:length(posB))
-    # C(cPos,1) = posB
-    # C(cPos,2) = posB+1+ny
-    # C(cPos,3) = posB+ny
-    # C = C(1:(length(posA)+length(posB)),:)
     
     from matplotlib.tri import Triangulation
 
